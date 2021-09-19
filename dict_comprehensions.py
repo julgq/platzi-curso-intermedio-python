@@ -21,7 +21,7 @@ def run():
 	# cuyas llaves sean  los 1000 primeros números naturales con sus raíces cuadradas
 	# como valores
 
-	my_dict_reto = {i:math.sqrt(i) for i in range(1, 101)}
+	my_dict_reto = {i:math.sqrt(i) for i in range(1, 1001)}
 	print(my_dict_reto)
 	print("\n")
 
